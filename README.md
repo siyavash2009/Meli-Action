@@ -20,7 +20,7 @@
 ## 🚀 شروع به کار
 
 ### ۱. فورک (Fork) کن
-- برو به [https://github.com/Kurdeus/Meli-Action](https://github.com/Kurdeus/Meli-Action)
+
 - دکمه **Fork** رو در بالای صفحه بزن تا ریپازیتوری وارد حساب گیت‌هاب خودت بشه.
 
 ### ۲. تنظیمات اکشن‌ها (Actions Permissions) رو فعال کن
