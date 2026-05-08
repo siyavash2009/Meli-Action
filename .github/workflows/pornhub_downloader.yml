@@ -130,12 +130,9 @@ jobs:
       - name: Commit and push to repository
         run: |
           FOLDER="${{ github.event.inputs.output_folder }}"
-          if [ -n "$(ls -A "$FOLDER" 2>/dev/null)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add "$FOLDER/"
-            git commit -m "Add downloaded video(s)"
-            git push
-          else
-            echo "No files to commit. The folder is empty."
-          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "$FOLDER/"
+          git commit -m "Add downloaded video(s)"
+          git push
+          
